@@ -15,11 +15,6 @@ function Navbar() {
         <header className="bg-gradient-to-r from-[#3e4a70] to-[#202434] py-4 fixed w-full z-40 shadow-lg">
             <nav className="container mx-auto px-5">
                 <div className="flex justify-between items-center">
-                    
-                    {/* Logo/Brand (Optional) */}
-                    <div className="text-amber-50 font-bold text-xl">
-                        <a href="#home">Portfolio</a>
-                    </div>
 
                     {/* Desktop Menu */}
                     <ul className="hidden md:flex items-center gap-10">
