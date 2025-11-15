@@ -79,7 +79,7 @@ function ContactLayout() {
                     href={info.link}
                     target={info.link.startsWith('http') ? '_blank' : '_self'}
                     rel={info.link.startsWith('http') ? 'noopener noreferrer' : ''}
-                    className="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-800 transition-all duration-500 group"
+                    className="flex items-start gap-4 p-4 rounded-lg hover:bg-gray-800 transition-all duration-500 group break-all"
                   >
                     <div className={`w-12 h-12 ${info.color} bg-opacity-10 rounded-full flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform duration-300`}>
                       <i className={`${info.icon} text-xl ${info.color}`}></i>

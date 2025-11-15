@@ -121,7 +121,7 @@ function ProjectsLayout() {
                     }}
                   />
 
-                  <div className="absolute inset-0 bg-[#3e4a70] bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex items-center justify-center gap-4">
+                   <div className="hidden lg:flex absolute inset-0 bg-[#3e4a70] bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-500 items-center justify-center gap-4">
                     <a
                       href={project.liveDemo}
                       target="_blank"
@@ -139,6 +139,27 @@ function ProjectsLayout() {
                       <i className="fab fa-github text-xl"></i>
                     </a>
                   </div>
+
+                  {/* Action Buttons for Mobile/Tablet - Always Visible */}
+                  <div className="lg:hidden absolute bottom-3 left-0 right-0 flex items-center justify-center gap-3 px-3">
+                    <a
+                      href={project.liveDemo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 px-4 py-2 bg-white text-[#3e4a70] rounded-lg font-semibold hover:bg-amber-400 hover:text-white transition-colors duration-300 text-center text-sm shadow-lg"
+                    >
+                      Live Demo
+                    </a>
+                    <a
+                      href={project.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 bg-white text-[#3e4a70] rounded-lg hover:bg-amber-400 hover:text-white transition-colors duration-300 shadow-lg"
+                    >
+                      <i className="fab fa-github text-xl"></i>
+                    </a>
+                  </div>
+                
                 </div>
 
                 {/* Project Info */}
