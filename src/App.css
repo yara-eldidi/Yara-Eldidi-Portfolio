@@ -1,0 +1,74 @@
+/*------------Navbar---------------*/
+.hover-underline {
+  position: relative;
+}
+
+.hover-underline::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 0;
+  height: 1px;
+  background-color: #fff;
+  transition: width 0.4s ease;
+}
+
+.hover-underline:hover::before {
+  width: 100%;
+}
+
+/*---------------HeroSec---------------*/
+.heroSec {
+  padding-top: 10%;
+}
+
+.proPic {
+  animation: moveProfile 4s infinite alternate ease-in-out;
+}
+
+@keyframes moveProfile {
+  0% {
+    transform: translateX(-10px) translateY(-5px);
+  }
+
+  50% {
+    transform: translateX(0) translateY(5px);
+  }
+
+  100% {
+    transform: translateX(10px) translateY(-5px);
+  }
+}
+
+
+/*---------------projects---------------*/
+.swiper-button-next,
+.swiper-button-prev {
+  color: white !important;
+  background: #222637;
+  width: 30px !important;
+  height: 30px !important;
+  padding: 5px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.swiper-button-next:hover,
+.swiper-button-prev:hover {
+  background: #3e4a70;
+  color: white;
+}
+
+.swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background: #3e4a70;
+  opacity: 0.3;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #3e4a70;
+}
