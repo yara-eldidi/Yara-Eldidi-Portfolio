@@ -28,7 +28,7 @@ function HeroLayout() {
   return (
     <section 
     id='home'
-      className="relative min-h-screen flex items-center justify-center overflow-hidden dark:bg-[#222637]"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden bg-white dark:bg-[#222637]"
       aria-labelledby="hero-heading"
     >
       {/* Background */}
