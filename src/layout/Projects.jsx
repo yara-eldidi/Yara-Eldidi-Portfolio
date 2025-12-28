@@ -8,6 +8,7 @@ import furnitureImg from "../assets/img/furniture.png"
 import idImg from "../assets/img/id-analyzer.png"
 import crudImg from "../assets/img/CRUD.png"
 import deskImg from "../assets/img/desk-book.png"
+import eventImg from "../assets/img/eventlinker.png"
 
 function ProjectsLayout() {
   const projects = [
@@ -60,6 +61,16 @@ function ProjectsLayout() {
       technologies: ["HTML", "CSS", "JS", "Bootstrap"],
       liveDemo: "https://yara-eldidi.github.io/CRUD/",
       github: "https://github.com/yara-eldidi/CRUD",
+    },
+    {
+      id: 6,
+      title: "EventLinker",
+      description:
+        "EventLinker is an online platform that helps you discover, manage, and join events easily. Connect with organizers and attendees.",
+      image: eventImg,
+      technologies: ["ٌReact","HTML", "CSS", "JS", "Bootstrap"],
+      liveDemo: "https://event-linker-r-s2l3.vercel.app/",
+      github: "https://github.com/mohy-walid/EventLinker-R",
     },
   ];
 

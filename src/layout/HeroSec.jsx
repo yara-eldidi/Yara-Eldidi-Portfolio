@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
 import profileImg from "../assets/img/profile.png";
 import ThreeBackground from "../component/ThreeBackground";
-import cvFile from "../../public/cv/Yara-Eldidi.pdf";
+import cvFile from "../../public/cv/Yara Eldidi-Frontend Developer.pdf";
 
 function HeroLayout() {
   const [isVisible, setIsVisible] = useState(false);
